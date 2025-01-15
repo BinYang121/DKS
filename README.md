@@ -1,8 +1,8 @@
-## DKS: A Unified GNN-Based Method for Keyword Search on Dirty Graphs
+# DKS: A Unified GNN-Based Method for Keyword Search on Dirty Graphs
 
 A PyTorch + DGL implementation of DKS, as described in the paper: A Unified GNN-Based Framework for Keyword Search on Dirty Graphs
 
-### Requirements
+## Requirements
 ```
 - cuda11.3
 - cudnn=8.2.0
@@ -14,12 +14,12 @@ A PyTorch + DGL implementation of DKS, as described in the paper: A Unified GNN-
 -torch-scatter=2.1.1+pt112cu113
 -torch-sparse=0.6.17+pt112cu113
 ```
-### Running
+## Running
 ```
 python main.py
 ```
 
-### Project Structure
+## Project Structure
 ```
 ├  dan_net.py      # DAN net
 │  gat_layer.py      # GAT layer
@@ -79,4 +79,7 @@ python main.py
     │              kw9_top10_output.txt
     │              kw9_top50_output.txt
 ```
+
+## Experiment Datasets
+You can download the datasets used in the experiment from [here](https://1drv.ms/f/s!An78MY7AdBT2dR2ukIsI0-Ovzwk?e=TuYJzn).  
 
