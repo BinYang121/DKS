@@ -1,4 +1,4 @@
-DKS: A Unified GNN-Based Method for Keyword Search on Dirty Graphs
+## DKS: A Unified GNN-Based Method for Keyword Search on Dirty Graphs
 
 A PyTorch + DGL implementation of DKS, as described in the paper: A Unified GNN-Based Framework for Keyword Search on Dirty Graphs
 
